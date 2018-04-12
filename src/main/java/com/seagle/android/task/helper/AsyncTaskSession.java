@@ -11,7 +11,6 @@ import java.util.concurrent.TimeoutException;
  * <p>这个类提供一套任务的跟踪，同步，取消机制</P>
  *
  * @author : xiudong.yuan@midea.com.cn
- * @date : 2016/5/26
  */
 public final class AsyncTaskSession<Progress, Result> {
 

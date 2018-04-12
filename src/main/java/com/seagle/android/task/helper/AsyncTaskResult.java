@@ -6,7 +6,6 @@ import android.os.Bundle;
  * <h1>任务执行结果</h1>
  *
  * @author : xiudong.yuan@midea.com.cn
- * @date : 2016/5/26
  */
 public final class AsyncTaskResult<Result> {
 

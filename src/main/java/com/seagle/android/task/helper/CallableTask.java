@@ -2,8 +2,6 @@ package com.seagle.android.task.helper;
 
 
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
-
 import java.util.concurrent.Callable;
 
 /**
@@ -12,7 +10,6 @@ import java.util.concurrent.Callable;
  * 无论是正常结束，异常结束，用户取消，任务都将处于结束状态。
  *
  * @author : xiudong.yuan@midea.com.cn
- * @date : 2016/5/26
  */
 public abstract class CallableTask<Progress, Result> implements Callable<AsyncTaskResult<Result>> {
 
@@ -41,7 +38,6 @@ public abstract class CallableTask<Progress, Result> implements Callable<AsyncTa
     /**
      * 取消任务
      */
-    @CallSuper
     protected void onCancel() {
         mCancelled = true;
     }

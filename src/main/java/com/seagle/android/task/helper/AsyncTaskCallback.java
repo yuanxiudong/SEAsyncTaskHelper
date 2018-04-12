@@ -5,8 +5,7 @@ import android.os.Bundle;
 /**
  * <h1>异步任务回调</h1>
  *
- * @author : xiudong.yuan@midea.com.cn
- * @date : 2016/5/26
+ * @author : yuanxiudong66@sina.com
  */
 public abstract class AsyncTaskCallback<Progress, Result> {
 

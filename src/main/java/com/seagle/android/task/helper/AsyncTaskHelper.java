@@ -7,7 +7,6 @@ import android.os.AsyncTask;
  * <p>包装了AsyncTask,提供一套任务跟踪和取消机制</P>
  *
  * @author : xiudong.yuan@midea.com.cn
- * @date : 2016/5/26
  */
 public final class AsyncTaskHelper {
 
