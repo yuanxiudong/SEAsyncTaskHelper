@@ -19,3 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# add follow item to your proguard roles
+#-keep class com.seagle.** {*;}
