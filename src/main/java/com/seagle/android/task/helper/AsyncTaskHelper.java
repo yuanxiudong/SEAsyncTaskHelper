@@ -6,7 +6,7 @@ import android.os.AsyncTask;
  * <h1>异步任务协助类</h1>
  * <p>包装了AsyncTask,提供一套任务跟踪和取消机制</P>
  *
- * @author : xiudong.yuan@midea.com.cn
+ * @author : yuanxiudong66@sina.com
  */
 public final class AsyncTaskHelper {
 

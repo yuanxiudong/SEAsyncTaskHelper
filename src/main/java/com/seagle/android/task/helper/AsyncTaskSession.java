@@ -10,7 +10,7 @@ import java.util.concurrent.TimeoutException;
  * <h1>请求回话</h1>
  * <p>这个类提供一套任务的跟踪，同步，取消机制</P>
  *
- * @author : xiudong.yuan@midea.com.cn
+ * @author : yuanxiudong66@sina.com
  */
 public final class AsyncTaskSession<Progress, Result> {
 

@@ -9,7 +9,7 @@ import java.util.concurrent.Callable;
  * 用户任务的生命周期：开始，更新，结束。
  * 无论是正常结束，异常结束，用户取消，任务都将处于结束状态。
  *
- * @author : xiudong.yuan@midea.com.cn
+ * @author : yuanxiudong66@sina.com
  */
 public abstract class CallableTask<Progress, Result> implements Callable<AsyncTaskResult<Result>> {
 
